@@ -1,0 +1,39 @@
+<h1 class="mt-4">Users Git</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Lista</li>
+</ol>
+<div class="container">
+    <br />
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-condensed table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Login</th>
+                        <th>Type</th>
+                        <th>Node ID</th>
+                        <th>Site Admin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let userGit of usersGit">
+                        <td>{{ userGit.id }}</td>
+                        <td>{{ userGit.login }}</td>
+                        <td>{{ userGit.type }}</td>
+                        <td>{{ userGit.node_id }}</td>
+                        <td>{{ userGit.site_admin }}</td>
+                        <td>
+                        </td>
+
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+
+    
+</div>
